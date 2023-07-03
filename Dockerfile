@@ -25,8 +25,8 @@ RUN chmod 777 /opt/commons_lang3.jar
 # ENV PATH ${GRAAL_BASE_PATH}/bin:$PATH
 # ENV JAVA_HOME {$GRAAL_BASE_PATH}
 
-WORKDIR /exercises-java
+WORKDIR /exercises-pre-course-java
 
 COPY . .
 
-ENV PATH /exercises-java/bin:$PATH
+ENV PATH /exercises-pre-course-java/bin:$PATH
