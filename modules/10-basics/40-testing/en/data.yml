@@ -1,0 +1,11 @@
+name: How we review your decisions
+definitions:
+  - name: Tests
+    description: >
+      a special code that checks programs for correctness by checking the correct result with the real one.
+      the correct result against the real one.
+tips:
+  - |
+    [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
+  - |
+    [Hexlet Community on Telegram](https://t.me/hexletcommunity/12)

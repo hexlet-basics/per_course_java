@@ -1,0 +1,8 @@
+name: Syntax errors
+definitions:
+  - name: Compiler
+    description: >-
+      A program that converts source code into a low-level language
+      suitable for execution
+  - name: Syntax error
+    description: Violation of grammatical rules of a programming language

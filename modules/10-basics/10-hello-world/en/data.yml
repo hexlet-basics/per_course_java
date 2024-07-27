@@ -1,0 +1,7 @@
+name: Hello, World!
+tips:
+  - >
+    If the editor has a `// BEGIN` and `// END` entry, the code should be written between these lines.
+        between those lines.
+  - |
+    [What is a compiler?](https://guides.hexlet.io/compiler/)

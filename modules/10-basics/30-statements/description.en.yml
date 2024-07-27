@@ -1,0 +1,38 @@
+---
+
+name: Statements
+theory: |
+  An instruction is a command to the computer. Java code is a set of instructions that are usually separated from each other by the `;` character. Here is an example of code with two instructions:
+
+  ```java
+  System.out.println(“Mother of Dragons”);
+  System.out.println(“Dracarys!”);
+  ```
+
+  When you run this code, two sentences are printed sequentially on the screen:
+
+  <pre class='hexlet-basics-output'>
+  Mother of Dragons
+  Dracarys!
+  </pre>
+
+  Why is this important to know? An instruction is a unit of execution. A program that runs code in Java executes instructions strictly one at a time. Developers must understand this order and be able to mentally divide the program into independent parts that are easy to analyze.
+
+  In theory, instructions can be written sequentially one after another without being moved to a new line:
+
+  ```java
+  System.out.println(“Mother of Dragons.”); System.out.println(“Dracarys!”);
+  ```
+
+  The result on the screen will be the same, but in practice this approach is considered bad.
+
+instructions: |
+  Display three names one after another: *Robert*, *Stannis*, *Renly*. As a result, the screen should display:
+
+  <pre class='hexlet-basics-output'>.
+  Robert
+  Stannis
+  Renly
+  </pre>
+
+  For each name, use its own `System.out.println()` call.
